@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="College in Alberta" />
+    <meta name="keywords" content="college, university, alberta, technical" />
+    <meta name="author" content="Sanjeev Prabhakar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alberta Technical University</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/index.js"></script>
+  </head>
+  <body class="imaged-background">
+    <audio autoplay controls>
+      <source src="audio/soundloop.ogg" type="audio/ogg" />
+      <source src="audio/soundloop.mp3" type="audio/mpeg" />
+      <p>Your browser does not support the audio element.</p>
+    </audio>
+    <div id="navigator">
+      <div id="empty-div"></div>
+      <h1>Survey</h1>
+      <div id="empty-div"></div>
+    </div>
+    <div id="main-body">
+      <form action="./index.html">
+        <label>Which fascinates you most?</label><br />
+        <input type="radio" name="fav_subject" value="Computers" />
+        <label>Computers</label><br />
+        <input type="radio" name="fav_subject" value="Machines" />
+        <label>Machines</label><br />
+        <input type="radio" name="fav_subject" value="Structural Engineering" />
+        <label>Structural Engineering</label><br />
+        <input type="radio" name="fav_subject" value="Electronics" />
+        <label>Electronics</label><br />
+        <input type="radio" name="fav_subject" value="Commuication" />
+        <label>Commuication</label><br />
+        <input type="radio" name="fav_subject" value="Journalism" />
+        <label>Journalism</label><br />
+        <input type="radio" name="fav_subject" value="not listed here" />
+        <label>Not listed here</label><br />
+        <br />
+        <label
+          >What would you like to have in your college(select all that
+          apply)?</label
+        ><br />
+        <input type="checkbox" name="college_expect" />
+        <label>Good Environment</label><br />
+        <input type="checkbox" name="college_expect" />
+        <label>Lot of labs</label><br />
+        <input type="checkbox" name="college_expect" />
+        <label>Gym</label><br />
+        <input type="checkbox" name="college_expect" />
+        <label>Halls</label><br />
+        <input type="checkbox" name="college_expect" />
+        <label>Library</label><br />
+        <input type="checkbox" name="college_expect" />
+        <label>Fuctions</label><br />
+        <br />
+        <label
+          >State true or false -<br />
+          <b>Computer Science is most loved subject on earth</b>?</label
+        ><br />
+        <input type="radio" name="comp_sci_ques" value="True" />
+        <label>True</label><br />
+        <input type="radio" name="comp_sci_ques" value="False" />
+        <label>False</label><br />
+        <br />
+
+        <label>What is your name?</label><br />
+        <input type="text" placeholder="Name" />
+        <br /><br />
+
+        <label
+          >Choose one field which you want to see yourself involved in?</label
+        ><br />
+        <select id="subj" name="subject">
+          <option value="Science">Science</option>
+          <option value="Humanities">Humanities</option>
+          <option value="Commerece">Commerece</option>
+          <option value="Some other field">Some other field</option>
+        </select>
+        <br /><br />
+        <label>Choose one among STEM:</label><br />
+        <select id="stem" name="stem" size="3">
+          <option value="science">Science</option>
+          <option value="technology">Technology</option>
+          <option value="engineering">Engineering</option>
+          <option value="mathematics">Mathematics</option></select
+        ><br /><br />
+
+        <label>Anything you want to say to us?</label><br />
+        <textarea></textarea>
+        <br /><br />
+
+        <label>Your email-id so that we can contact you?</label><br />
+        <input type="email" placeholder="abc@abc.com" />
+        <br /><br />
+
+        <label>Please upload your passport size picture?</label><br />
+        <input type="file" />
+        <br /><br />
+
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
